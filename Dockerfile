@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get install -y nginx nginx-extras apache2-utils
 
