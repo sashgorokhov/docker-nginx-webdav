@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - "/mnt:/media"
+      - "/mnt:/webdav"
     environment:
       USERNAME: user
       PASSWORD: passwd
